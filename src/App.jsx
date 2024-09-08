@@ -1,4 +1,3 @@
-import React, { useState } from 'react';
 import './App.css';
 
 
@@ -190,7 +189,7 @@ function App() {
             <div className="flex flex-col px-6 py-6 mx-auto w-full bg-rose-50 border border-black border-solid rounded-[30px] max-md:pl-5 max-md:mt-6">
               <div className="flex items-start text-3xl font-semibold text-zinc-800">
                 <div className="flex-auto mt-3 w-[302px]">
-                  ANNOUNCEMENTS 
+                  ANNOUNCEMENTS
                   <br />
                 </div>
                 <img
@@ -315,7 +314,7 @@ function App() {
                 </div>
                 <div className="text-xs font-medium text-black">
                   Department of Physics and Materials Science & Engineering is
-                  organizing International Young Quantum Scientists' Meet 2024
+                  organizing International Young Quantum Scientists Meet 2024
                   from 16 - 20 September 2024
                 </div>
                 <img
@@ -436,7 +435,7 @@ function App() {
               <div className="shrink-0 mt-3 h-1 border-2 border-red-400 border-solid max-md:max-w-full" />
               <div className="flex flex-wrap gap-5 justify-between items-start self-center max-w-full text-3xl font-semibold text-zinc-800 w-[691px]">
                 <div className="mt-3">
-                  ANNOUNCEMENTS 
+                  ANNOUNCEMENTS
                   <br />
                 </div>
                 <img
