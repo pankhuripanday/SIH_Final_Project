@@ -11,7 +11,7 @@ function App() {
       <div className="flex flex-wrap gap-5 justify-between items-start w-full max-w-[1659px] max-md:max-w-full">
         <div className="flex flex-wrap gap-2 text-xl font-semibold text-stone-900 max-md:max-w-full">
           <div className="px-8 py-3 hover:bg-red-400 cursor-pointer border border-black border-solid max-md:px-5">
-            Rajasthan unversity
+            Rajasthan University
           </div>
           <div className="px-3.5 py-3 whitespace-nowrap bg-white border border-black border-solid max-md:pr-5 hover:bg-red-400 cursor-pointer ">
             +91-12X-90451xxx
@@ -230,11 +230,11 @@ function App() {
                   <br />
                 </div>
                 <div className="flex flex-col items-start self-end mt-8">
-                  {/* <img
+                  <img
                     loading="lazy"
                     src="https://cdn.builder.io/api/v1/image/assets/TEMP/eb1ad925c32a90de0aaebc9357bacbd1aad601f10b56dadc859df091b6487cc9?placeholderIfAbsent=true&apiKey=af0f1438ef8a4472b1f9302efca0e500"
                     className="object-contain aspect-[0.5] w-[5px]"
-                  /> */}
+                  />
                   <div className="flex relative flex-col mt-9 aspect-[0.5] w-[5px]">
                     <img
                       loading="lazy"
@@ -289,12 +289,12 @@ function App() {
                   />
                 </div>
               </div>
-              <div className="gap-2 self-stretch px-9 py-6 mt-32 text-lg font-extrabold leading-none text-center text-red-400 bg-white border-red-400 border-solid shadow-sm border-[1.333px] min-h-[72px] rounded-[40px] max-md:px-5 max-md:mt-10 max-md:mr-2.5">
-                VIEW ALL
-              </div>
+              {/* <div className="gap-2 self-stretch px-9 py-6 mt-32 text-lg font-extrabold leading-none text-center text-red-400 bg-white border-red-400 border-solid shadow-sm border-[1.333px] min-h-[72px] rounded-[40px] max-md:px-5 max-md:mt-10 max-md:mr-2.5"> */}
+                <button className="gap-2 self-stretch px-9 py-6 mt-32 text-lg font-extrabold leading-none text-center text-red-400 bg-white border-red-400 border-solid shadow-sm border-[1.333px] min-h-[72px] rounded-[40px] max-md:px-5 max-md:mt-10 max-md:mr-2.5 hover:bg-red-200 active:bg-red-300">VIEW ALL</button>
+              {/* </div> */}
             </div>
           </div>
-          <div className="flex flex-col ml-5 w-[27%] max-md:ml-0 max-md:w-full">
+          <div className="flex flex-col ml-5 w-[27%] max-md:ml-0 max-md:w-full ">
             <div className="flex flex-col items-start px-3 py-8 mx-auto w-full bg-rose-50 border border-black border-solid rounded-[30px] max-md:mt-6 max-md:max-w-full">
               <div className="flex gap-5 text-3xl font-semibold text-zinc-800">
                 <div className="flex-auto">
@@ -378,14 +378,15 @@ function App() {
                   className="object-contain shrink-0 my-auto aspect-[0.5] w-[5px]"
                 />
               </div>
-              <div className="gap-2 self-end px-9 py-5 mt-20 text-lg font-extrabold leading-none text-center text-red-400 bg-white border-red-400 border-solid shadow-sm border-[1.333px] min-h-[60px] rounded-[40px] max-md:px-5 max-md:mt-10">
+              {/* <div className="gap-2 self-stretch px-9 py-6  text-lg font-extrabold leading-none text-center text-red-400 bg-white border-red-400 border-solid shadow-sm border-[1.333px] min-h-[72px] rounded-[40px] max-md:px-5 max-md:mt-10 max-md:mr-2.5">
                 VIEW ALL
-              </div>
+              </div> */}
+              <button className="gap-2 self-stretch px-9 py-6 text-lg font-extrabold leading-none text-center text-red-400 bg-white border-red-400 border-solid shadow-sm border-[1.333px] min-h-[72px] rounded-[40px] max-md:px-5 max-md:mt-10 max-md:mr-2.5 hover:bg-red-200 active:bg-red-300">VIEW ALL</button>
             </div>
           </div>
           <div className="flex flex-col ml-5 w-[48%] max-md:ml-0 max-md:w-full">
             <div className="flex flex-col py-7 mx-auto w-full bg-rose-50 border border-black border-solid rounded-[30px] max-md:mt-6 max-md:max-w-full">
-              <div className="flex text-3xl font-semibold text-zinc-800 max-md:pr-5">
+              {/* <div className="flex justify-start  text-3xl font-semibold text-zinc-800 max-md:pr-5">
                 <div className="flex z-10 flex-auto mr-0 max-md:max-w-full">
                   <div className="z-10 flex-auto self-end mt-14 mr-0 h-1 border-2 border-red-400 border-solid max-md:mt-10 max-md:max-w-full" />
                   <div className="flex-auto max-md:max-w-full">
@@ -398,7 +399,24 @@ function App() {
                   src="https://cdn.builder.io/api/v1/image/assets/TEMP/276ed53f425b921494d51bf6735e033a85d87d3086e8be93ee6e48211a8b71fa?placeholderIfAbsent=true&apiKey=af0f1438ef8a4472b1f9302efca0e500"
                   className="object-contain shrink-0 self-start rounded-none aspect-[1.37] w-[59px]"
                 />
+              </div> */}
+              <div className="flex justify-between items-center text-3xl font-semibold text-zinc-800 max-md:pr-5">
+                <div className="flex items-center space-x-4 max-md:flex-col max-md:space-x-0 max-md:space-y-4">
+                  <div className="flex flex-col max-md:w-full">
+                  
+                    <div className=" max-md:text-center ml-5">
+                      TRAINING & PLACEMENT
+                    </div>
+                  </div>
+                  <img
+                    loading="lazy"
+                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/276ed53f425b921494d51bf6735e033a85d87d3086e8be93ee6e48211a8b71fa?placeholderIfAbsent=true&apiKey=af0f1438ef8a4472b1f9302efca0e500"
+                    className="object-contain w-16 h-16 rounded-full"
+                  />
+                </div>
               </div>
+<div className="shrink-0  mt-3 h-1 border-2 border-red-400 border-solid max-md:max-w-full" />
+
               <div className="flex flex-col items-start pr-20 pl-4 mt-2 w-full max-md:pr-5 max-md:max-w-full">
                 <div className="ml-2.5 text-base font-light text-black max-md:max-w-full">
                   Few of our regular key recruiters for B.Tech, M.Tech, Dual
@@ -430,10 +448,14 @@ function App() {
                   </div>
                 </div>
               </div>
-              <div className="self-end px-6 pt-2 pb-3.5 mt-2 mr-10 text-base font-semibold text-black bg-red-400 bg-opacity-40 max-md:px-5 max-md:mr-2.5">
+              {/* <div className="self-end px-6 pt-2 pb-3.5 mt-2 mr-10 text-base font-semibold text-black bg-red-400 bg-opacity-40 max-md:px-5 max-md:mr-2.5">
                 View More
-              </div>
-              <div className="shrink-0 mt-3 h-1 border-2 border-red-400 border-solid max-md:max-w-full" />
+              </div> */}
+
+              <button className="self-end px-6 pt-2 pb-3.5 mt-2 mr-10 text-base font-semibold text-black bg-red-400 bg-opacity-40 max-md:px-5 max-md:mr-2.5 hover:bg-red-200 rounded-xl active:bg-white">View More</button>
+
+
+              <div className="shrink-0 mt-2 h-1 border-2 border-red-400 border-solid max-md:max-w-full" />
               <div className="flex flex-wrap gap-5 justify-between items-start self-center max-w-full text-3xl font-semibold text-zinc-800 w-[691px]">
                 <div className="mt-3">
                   ANNOUNCEMENTS 
@@ -476,16 +498,17 @@ function App() {
                   <br />
                   Median Package -  Rs 6.50 Lacs
                 </div>
-                <div className="px-5 pt-1.5 pb-4 mt-6 ml-5 max-w-full font-semibold bg-red-400 bg-opacity-40 w-[126px] max-md:pr-5 max-md:ml-2.5">
+                {/* <div className="px-5 pt-1.5 pb-4 mt-6 ml-5 max-w-full font-semibold bg-red-400 bg-opacity-40 w-[126px] max-md:pr-5 max-md:ml-2.5">
                   View More
-                </div>
+                </div> */}
+                <button className="px-5 pt-1.5 pb-4 mt-6 ml-5 max-w-full font-semibold bg-red-400 bg-opacity-40 w-[126px] max-md:pr-5 max-md:ml-2.5 hover:bg-red-200 rounded-xl active:bg-white">View More</button>
               </div>
             </div>
           </div>
         </div>
       </div>
       <div className="mt-10 w-full border-solid border-[5px] border-orange-600 border-opacity-20 min-h-[6px] max-md:mt-10 max-md:max-w-full" />
-      <div className="self-center mt-14 text-5xl font-extrabold leading-none text-red-400 max-md:mt-10 max-md:max-w-full max-md:text-4xl">
+      <div className="self-center mt-14 text-5xl font-extrabold leading-none text-red-600 max-md:mt-10 max-md:max-w-full max-md:text-4xl">
         Top Diploma in Engineering Colleges in Rajasthan
       </div>
       <div className="flex relative flex-col self-center px-0.5 mt-16 w-full max-w-[1700px] min-h-[386px] max-md:mt-10 max-md:max-w-full">
@@ -495,11 +518,11 @@ function App() {
           className="object-cover absolute inset-0 size-full"
         />
         <div className="flex relative z-10 flex-col px-9 pt-11 pb-4 w-full min-h-[388px] max-md:px-5 max-md:max-w-full">
-          <img
+          {/* <img
             loading="lazy"
             src="https://cdn.builder.io/api/v1/image/assets/TEMP/aede3ccd552f35dc3ff727120641db01203f19e5ccd78a60e29ef1a2282fe18c?placeholderIfAbsent=true&apiKey=af0f1438ef8a4472b1f9302efca0e500"
             className="object-cover absolute inset-0 size-full"
-          />
+          /> */}
           <div className="relative z-10 max-md:max-w-full">
             <div className="flex gap-5 max-md:flex-col">
               <div className="flex flex-col w-3/12 max-md:ml-0 max-md:w-full">
@@ -510,7 +533,9 @@ function App() {
                       srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/cc224e4f736f2e94d94a121f3b1122f04a625ede1efb056beb05854f22efd69e?placeholderIfAbsent=true&apiKey=af0f1438ef8a4472b1f9302efca0e500&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/cc224e4f736f2e94d94a121f3b1122f04a625ede1efb056beb05854f22efd69e?placeholderIfAbsent=true&apiKey=af0f1438ef8a4472b1f9302efca0e500&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/cc224e4f736f2e94d94a121f3b1122f04a625ede1efb056beb05854f22efd69e?placeholderIfAbsent=true&apiKey=af0f1438ef8a4472b1f9302efca0e500&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/cc224e4f736f2e94d94a121f3b1122f04a625ede1efb056beb05854f22efd69e?placeholderIfAbsent=true&apiKey=af0f1438ef8a4472b1f9302efca0e500&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/cc224e4f736f2e94d94a121f3b1122f04a625ede1efb056beb05854f22efd69e?placeholderIfAbsent=true&apiKey=af0f1438ef8a4472b1f9302efca0e500&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/cc224e4f736f2e94d94a121f3b1122f04a625ede1efb056beb05854f22efd69e?placeholderIfAbsent=true&apiKey=af0f1438ef8a4472b1f9302efca0e500&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/cc224e4f736f2e94d94a121f3b1122f04a625ede1efb056beb05854f22efd69e?placeholderIfAbsent=true&apiKey=af0f1438ef8a4472b1f9302efca0e500&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/cc224e4f736f2e94d94a121f3b1122f04a625ede1efb056beb05854f22efd69e?placeholderIfAbsent=true&apiKey=af0f1438ef8a4472b1f9302efca0e500"
                       className="object-cover absolute inset-0 size-full"
                     />
-                    <div className="flex relative z-10 flex-col px-8 pt-2 pb-10 mb-0 aspect-[5.362] max-md:px-5 max-md:-mr-1">
+                    
+                  </div>
+                  <div className="flex relative z-10 flex-col px-8 pt-2 pb-10 mb-0 aspect-[5.362] max-md:px-5 max-md:-mr-1">
                       <img
                         loading="lazy"
                         src="https://cdn.builder.io/api/v1/image/assets/TEMP/5eaa1bed83036d063996b8fc1d457455c7fdf218c3490e74ef325c76ace66e95?placeholderIfAbsent=true&apiKey=af0f1438ef8a4472b1f9302efca0e500"
@@ -518,60 +543,79 @@ function App() {
                       />
                       Aarav Private ITI College
                     </div>
-                  </div>
-                  <div className="self-center mt-5 text-base leading-4 text-white">
+                    <button className='hover:bg-red-100 active:bg-red-500'>READ MORE</button>
+                  
+                  {/* <div className="self-center mt-5 text-base leading-4 text-white">
                     READ MORE
-                  </div>
+                  </div> */}
                 </div>
               </div>
               <div className="flex flex-col ml-5 w-3/12 max-md:ml-0 max-md:w-full">
                 <div className="flex relative flex-col grow mt-1 font-extrabold max-md:mt-10">
-                  <div className="flex relative flex-col px-7 pt-52 pb-10 text-xl leading-3 text-black rounded-2xl aspect-[1.365] max-md:px-5 max-md:pt-24">
+                <div className="flex relative flex-col pt-52 w-full text-2xl leading-loose text-black rounded-2xl aspect-[1.385] max-md:pt-24">
                     <img
                       loading="lazy"
                       srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/6bd7ec9f07f05f1bea362a12bfbb27d9954e4c00b7a5345a1f41f1d3cec39027?placeholderIfAbsent=true&apiKey=af0f1438ef8a4472b1f9302efca0e500&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/6bd7ec9f07f05f1bea362a12bfbb27d9954e4c00b7a5345a1f41f1d3cec39027?placeholderIfAbsent=true&apiKey=af0f1438ef8a4472b1f9302efca0e500&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/6bd7ec9f07f05f1bea362a12bfbb27d9954e4c00b7a5345a1f41f1d3cec39027?placeholderIfAbsent=true&apiKey=af0f1438ef8a4472b1f9302efca0e500&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/6bd7ec9f07f05f1bea362a12bfbb27d9954e4c00b7a5345a1f41f1d3cec39027?placeholderIfAbsent=true&apiKey=af0f1438ef8a4472b1f9302efca0e500&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/6bd7ec9f07f05f1bea362a12bfbb27d9954e4c00b7a5345a1f41f1d3cec39027?placeholderIfAbsent=true&apiKey=af0f1438ef8a4472b1f9302efca0e500&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/6bd7ec9f07f05f1bea362a12bfbb27d9954e4c00b7a5345a1f41f1d3cec39027?placeholderIfAbsent=true&apiKey=af0f1438ef8a4472b1f9302efca0e500&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/6bd7ec9f07f05f1bea362a12bfbb27d9954e4c00b7a5345a1f41f1d3cec39027?placeholderIfAbsent=true&apiKey=af0f1438ef8a4472b1f9302efca0e500&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/6bd7ec9f07f05f1bea362a12bfbb27d9954e4c00b7a5345a1f41f1d3cec39027?placeholderIfAbsent=true&apiKey=af0f1438ef8a4472b1f9302efca0e500"
                       className="object-cover absolute inset-0 size-full"
                     />
-                    Abu Road Polytechnic College
+                   
                   </div>
-                  <div className="self-center mt-5 text-base leading-4 text-white">
-                    READ MORE
-                  </div>
+                  <div className="flex relative z-10 flex-col px-8 pt-2 pb-10 mb-0 aspect-[5.362] max-md:px-5 max-md:-mr-1">
+                      <img
+                        loading="lazy"
+                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/5eaa1bed83036d063996b8fc1d457455c7fdf218c3490e74ef325c76ace66e95?placeholderIfAbsent=true&apiKey=af0f1438ef8a4472b1f9302efca0e500"
+                        className="object-cover absolute inset-0 size-full"
+                      />
+                      Abu Road Polytechnic College
+                    </div>
+                    <button className='hover:bg-red-100 active:bg-red-500'>READ MORE</button>
                 </div>
               </div>
               <div className="flex flex-col ml-5 w-3/12 max-md:ml-0 max-md:w-full">
                 <div className="flex relative flex-col grow mt-1 font-extrabold max-md:mt-10">
-                  <div className="flex relative flex-col px-3 pt-52 pb-10 text-base leading-3 text-black rounded-2xl aspect-[1.335] max-md:pt-24">
+                <div className="flex relative flex-col pt-52 w-full text-2xl leading-loose text-black rounded-2xl aspect-[1.385] max-md:pt-24">
                     <img
                       loading="lazy"
                       srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/fe38dd08f65e1a693a58daeae632feaa832c497a26567e9519be35b591e33f9d?placeholderIfAbsent=true&apiKey=af0f1438ef8a4472b1f9302efca0e500&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/fe38dd08f65e1a693a58daeae632feaa832c497a26567e9519be35b591e33f9d?placeholderIfAbsent=true&apiKey=af0f1438ef8a4472b1f9302efca0e500&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/fe38dd08f65e1a693a58daeae632feaa832c497a26567e9519be35b591e33f9d?placeholderIfAbsent=true&apiKey=af0f1438ef8a4472b1f9302efca0e500&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/fe38dd08f65e1a693a58daeae632feaa832c497a26567e9519be35b591e33f9d?placeholderIfAbsent=true&apiKey=af0f1438ef8a4472b1f9302efca0e500&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/fe38dd08f65e1a693a58daeae632feaa832c497a26567e9519be35b591e33f9d?placeholderIfAbsent=true&apiKey=af0f1438ef8a4472b1f9302efca0e500&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/fe38dd08f65e1a693a58daeae632feaa832c497a26567e9519be35b591e33f9d?placeholderIfAbsent=true&apiKey=af0f1438ef8a4472b1f9302efca0e500&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/fe38dd08f65e1a693a58daeae632feaa832c497a26567e9519be35b591e33f9d?placeholderIfAbsent=true&apiKey=af0f1438ef8a4472b1f9302efca0e500&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/fe38dd08f65e1a693a58daeae632feaa832c497a26567e9519be35b591e33f9d?placeholderIfAbsent=true&apiKey=af0f1438ef8a4472b1f9302efca0e500"
                       className="object-cover absolute inset-0 size-full"
                     />
-                    Advait Vedanta Institute of Technology
+                    
                   </div>
-                  <div className="self-center mt-5 text-base leading-4 text-white">
-                    READ MORE
-                  </div>
+                  <div className="flex relative z-10 flex-col px-8 pt-2 pb-10 mb-0 aspect-[5.362] max-md:px-5 max-md:-mr-1">
+                      <img
+                        loading="lazy"
+                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/5eaa1bed83036d063996b8fc1d457455c7fdf218c3490e74ef325c76ace66e95?placeholderIfAbsent=true&apiKey=af0f1438ef8a4472b1f9302efca0e500"
+                        className="object-cover absolute inset-0 size-full"
+                      />
+                      Advait Vedanta Institute of Technology
+                    </div>
+                    <button className='hover:bg-red-100 active:bg-red-500'>READ MORE</button>
                 </div>
               </div>
               <div className="flex flex-col ml-5 w-3/12 max-md:ml-0 max-md:w-full">
                 <div className="flex relative flex-col grow font-extrabold max-md:mt-10">
-                  <div className="flex relative flex-col px-16 pt-52 pb-9 w-full text-2xl leading-loose text-black rounded-2xl aspect-[1.485] max-md:px-5 max-md:pt-24">
+                <div className="flex relative flex-col pt-52 w-full text-2xl leading-loose text-black rounded-2xl aspect-[1.385] max-md:pt-24">
                     <img
                       loading="lazy"
                       srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/3d865f511e2325a06659c707daf1d65c55d527a7bf326d12872a8b0807b62282?placeholderIfAbsent=true&apiKey=af0f1438ef8a4472b1f9302efca0e500&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/3d865f511e2325a06659c707daf1d65c55d527a7bf326d12872a8b0807b62282?placeholderIfAbsent=true&apiKey=af0f1438ef8a4472b1f9302efca0e500&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/3d865f511e2325a06659c707daf1d65c55d527a7bf326d12872a8b0807b62282?placeholderIfAbsent=true&apiKey=af0f1438ef8a4472b1f9302efca0e500&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/3d865f511e2325a06659c707daf1d65c55d527a7bf326d12872a8b0807b62282?placeholderIfAbsent=true&apiKey=af0f1438ef8a4472b1f9302efca0e500&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/3d865f511e2325a06659c707daf1d65c55d527a7bf326d12872a8b0807b62282?placeholderIfAbsent=true&apiKey=af0f1438ef8a4472b1f9302efca0e500&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/3d865f511e2325a06659c707daf1d65c55d527a7bf326d12872a8b0807b62282?placeholderIfAbsent=true&apiKey=af0f1438ef8a4472b1f9302efca0e500&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/3d865f511e2325a06659c707daf1d65c55d527a7bf326d12872a8b0807b62282?placeholderIfAbsent=true&apiKey=af0f1438ef8a4472b1f9302efca0e500&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/3d865f511e2325a06659c707daf1d65c55d527a7bf326d12872a8b0807b62282?placeholderIfAbsent=true&apiKey=af0f1438ef8a4472b1f9302efca0e500"
                       className="object-cover absolute inset-0 size-full"
                     />
-                    Agrawal PG College
+                    
                   </div>
-                  <div className="self-center mt-6 text-base leading-4 text-white">
-                    READ MORE
-                  </div>
+                  <div className="flex relative z-10 flex-col px-8 pt-2 pb-10 mb-0 aspect-[5.362] max-md:px-5 max-md:-mr-1">
+                      <img
+                        loading="lazy"
+                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/5eaa1bed83036d063996b8fc1d457455c7fdf218c3490e74ef325c76ace66e95?placeholderIfAbsent=true&apiKey=af0f1438ef8a4472b1f9302efca0e500"
+                        className="object-cover absolute inset-0 size-full"
+                      />
+                      Agarwal PG College
+                    </div>
+                    <button className='hover:bg-red-100 active:bg-red-500'>READ MORE</button>
                 </div>
               </div>
             </div>
           </div>
-          <div className="flex relative flex-wrap gap-5 justify-between self-center w-full max-w-[1393px] max-md:max-w-full">
+          {/* <div className="flex relative flex-wrap gap-5 justify-between self-center w-full max-w-[1393px] max-md:max-w-full">
             <img
               loading="lazy"
               src="https://cdn.builder.io/api/v1/image/assets/TEMP/3f9e1e04d7d44725a04c61110dbe0c580cc4c7f3f88ff64510ecf5c30e4098ff?placeholderIfAbsent=true&apiKey=af0f1438ef8a4472b1f9302efca0e500"
@@ -582,7 +626,7 @@ function App() {
               src="https://cdn.builder.io/api/v1/image/assets/TEMP/96e32643d959fb6b8f333251db685b6dc39835908870e24fdbebaafabeb12f02?placeholderIfAbsent=true&apiKey=af0f1438ef8a4472b1f9302efca0e500"
               className="object-contain aspect-[25] w-[983px] max-md:max-w-full"
             />
-          </div>
+          </div> */}
         </div>
       </div>
       <img
