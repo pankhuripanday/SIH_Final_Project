@@ -9,15 +9,18 @@ function App() {
     <div className="flex overflow-hidden flex-col bg-white">
       <div className="flex flex-wrap gap-5 justify-between items-start w-full max-w-[1659px] max-md:max-w-full">
         <div className="flex flex-wrap gap-2 text-xl font-semibold text-stone-900 max-md:max-w-full">
-          <div className="px-8 py-3 hover:bg-red-400 cursor-pointer border border-black border-solid max-md:px-5">
+          {/* <div className="px-8 py-3 hover:bg-red-400 cursor-pointer border border-black border-solid max-md:px-5 active:bg-red-300">
             Rajasthan University
-          </div>
-          <div className="px-3.5 py-3 whitespace-nowrap bg-white border border-black border-solid max-md:pr-5 hover:bg-red-400 cursor-pointer ">
+          </div> */}
+          <button className="px-8 py-3 hover:bg-red-400 cursor-pointer border border-black border-solid max-md:px-5 active:bg-red-300"> Rajasthan University</button>
+          {/* <div className="px-3.5 py-3 whitespace-nowrap bg-white border border-black border-solid max-md:pr-5 hover:bg-red-400 cursor-pointer ">
             +91-12X-90451xxx
-          </div>
-          <div className="px-5 pt-1.5 pb-4 whitespace-nowrap bg-white border border-black border-solid max-md:px-5 hover:bg-red-400 cursor-pointer ">
+          </div> */}
+          <button className="px-3.5 py-3 whitespace-nowrap bg-white border border-black border-solid max-md:pr-5 hover:bg-red-400 cursor-pointer active:bg-red-300">+91-12X-90451xxx</button>
+          {/* <div className="px-5 pt-1.5 pb-4 whitespace-nowrap bg-white border border-black border-solid max-md:px-5 hover:bg-red-400 cursor-pointer ">
             admission@raj.ac.in
-          </div>
+          </div> */}
+          <button className="px-5 pt-1.5 pb-4 whitespace-nowrap bg-white border border-black border-solid max-md:px-5 hover:bg-red-400 cursor-pointer active:bg-red-300">admission@raj.ac.in</button>
         </div>
         <div className="flex gap-6 mt-4">
           <img 
