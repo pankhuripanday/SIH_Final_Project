@@ -108,17 +108,17 @@ function App() {
       </button>
     </div>
     <ul className="flex flex-col md:flex-row md:justify-evenly md:flex-1 space-y-4 md:space-y-0 md:space-x-8">
-      <li><a href="#home">Home</a></li>
-      <li><a href="#about-us">About Us</a></li>
-      <li><a href="#admissions">Admissions Information</a></li>
-      <li><a href="#directory">Institutes Directory</a></li>
-      <li><a href="#features">Features</a></li>
-      <li><a href="#alumni">Alumni</a></li>
-      <li><a href="#resource">Resource</a></li>
-      <li><a href="#approvals">Approvals</a></li>
-      <li><a href="#innovation">Innovation Hub</a></li>
-      <li><a href="#faqs">FAQs</a></li>
-      <li><a href="#contact">Contact Us</a></li>
+      <li><a className='active:bg-red-300' href="#home">Home</a></li>
+      <li><a className='active:bg-red-300' href="#about-us">About Us</a></li>
+      <li><a className='active:bg-red-300' href="#admissions">Admissions Information</a></li>
+      <li><a className='active:bg-red-300' href="#directory">Institutes Directory</a></li>
+      <li><a className='active:bg-red-300' href="#features">Features</a></li>
+      <li><a className='active:bg-red-300' href="#alumni">Alumni</a></li>
+      <li><a className='active:bg-red-300' href="#resource">Resource</a></li>
+      <li><a className='active:bg-red-300' href="#approvals">Approvals</a></li>
+      <li><a className='active:bg-red-300' href="#innovation">Innovation Hub</a></li>
+      <li><a className='active:bg-red-300' href="#faqs">FAQs</a></li>
+      <li><a className='active:bg-red-300' href="#contact">Contact Us</a></li>
     </ul>
   </div>
 </div>
